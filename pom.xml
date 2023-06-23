@@ -3,18 +3,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>tesla-app-project</artifactId>
 	<packaging>war</packaging>
 	
 	<version>0.0.2-SNAPSHOT</version> 
 	
-	<name>maven-web-application</name>
+	<name>telsa-app-project</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>Tesla App Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
+		<name>Jendarey Consulting</name>
+		<url>http://jendareyconsulting.com/</url>
 	</organization>
 
 	<properties>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/tesla-app-project</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +140,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>tesla-app-project</wtpContextName>
 				</configuration>
 			</plugin>
 			
